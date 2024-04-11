@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<style>
+    a{
+        transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    }
+    a:hover{
+        transform: scale(0.95);
+        color:#3B82F6;
+    }
+    button{
+        transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    }
+    button:hover{
+        transform: scale(0.95);
+        color:black;
+        background-color: #08a166;
+    }
+    .icons i{
+        transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    }
+    .icons i:hover{
+        transform: scale(0.95);
+    }
+</style>
+</head>
+<body>
+    <div class="main w-full  lg:px-10 py-10">
+        <div class="div  flex flex-col lg:flex-row items-center  justify-around gap-10 lg:gap-0">
+            <div class="first w-full lg:w-fit flex flex-col justify-center items-center capitalize gap-5">
+                <div class="logo text-center">
+                    <h1 class="font-bold text-xl">your logo</h1>
+                    <h1>your taggie here</h1>
+                </div>
+                <h1 class="font-medium text-lg mt-3">subscribe now</h1>
+                <div class="input flex gap-1 border-b-2 border-black">
+                    <i class="ri-mail-fill"></i>
+                    <input type="email" placeholder="enter your mail">
+                   </div> 
+                   <button class="bg-black text-white rounded-xl px-5 py-2 capitalize">
+                    subscribe
+                   </button>
+                        </div>
+                       
+                       <div class="middle w-full lg:w-fit flex gap-6 lg:gap-20 lg:flex-row pl-1">
+                        <div class="one capitalize">
+                            <h1 class="text-lg lg:text-2xl font-semibold">information</h1>
+                            <div class="links capitalize opacity-50 gap-1 font-medium mt-5 flex flex-col">
+                                <a href="">about us</a>
+                                <a href="">more search</a>
+                                <a href="">blog</a>
+                                <a href="">testimonials</a>
+                                <a href="">events</a>
+                            </div>
+                        </div>
+                        <div class="two capitalize">
+                            <h1 class="text-lg lg:text-2xl font-semibold">helpful links</h1>
+                            <div class="links capitalize opacity-50 gap-1 font-medium mt-5 flex flex-col">
+                                <a href="">sevices</a>
+                                <a href="">supports</a>
+                                <a href="">terms  conditons</a>
+                                <a href="">privacy policy</a>
+                            </div>
+                        </div>
+                        <div class="three capitalize">
+                            <h1 class="text-lg lg:text-2xl font-semibold">our services</h1>
+                            <div class="links capitalize opacity-50 gap-1 font-medium mt-5 flex flex-col">
+                                <a href="">brand list</a>
+                                <a href="">order</a>
+                                <a href="">return & exchange</a>
+                                <a href="">fashion list</a>
+                                <a href="">blog</a>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="end flex flex-col gap-5">
+                        <h1  class="text-lg lg:text-2xl font-semibold text-center lg:text-start capitalize">contact us</h1>
+                        <div class="div text-lg opacity-50">
+                            <h1 class="flex gap-5"><i class="ri-phone-fill"></i> +91 9999 999 999</h1>
+                <h1 class="flex gap-5"><i class="ri-mail-line"></i> yourmail@gamil.coom</h1>
+                        </div>
+                        <div class="icons text-center lg:text-start mt-3">
+        <a href=""><i class="ri-facebook-fill text-white bg-black px-3 py-3 rounded-full hover:text-[#0168E3]"></i></a>
+        <a href=""><i class="ri-instagram-fill text-white bg-black px-3 py-3 rounded-full hover:text-[#FD0770]"></i></a>
+        <a href=""><i class="ri-twitter-fill text-white bg-black px-3 py-3 rounded-full hover:text-[#1CA1F0]"></i></a>
+                            <a href=""><i class="ri-google-fill text-white bg-black px-3 py-3 rounded-full hover:text-[#FBBC05]"></i></a>
+                        </div>
+                       </div>
+        </div>
+       <div class="line w-full h-[1.5px] bg-black mt-10 opacity-50"></div>
+       <div class="text flex justify-between text-xs mt-3 px-5">
+        <h1 class="w-[100px] lg:w-fit">2018 &copy; company.Ltd.|All Right reserved</h1>
+<div class="div flex gap-2">
+<a href="">FAQ</a>
+<a href="">Privacy</a>
+<a href="">Terms & Conditions</a>
+</div>
+       </div>
+    </div>
+</body>
+</html>
